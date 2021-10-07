@@ -1,7 +1,7 @@
 #Estatística 2 - Lista 8 - Luciano Fabio Venturim
 
 # First, we read the data.
-data <- read.table("Estatística 2 - Lista 8 - Data.txt", header = TRUE, sep = ",")
+data <- read.table("https://raw.githubusercontent.com/lucianoventurim/Statistics-2-Masters-EPGE/main/data/statistic2_assigment8_data.txt", header = TRUE, sep = ",")
 colnames(data) <- c('z', 'choice')
 
 n <- nrow(data)

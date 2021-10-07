@@ -2,7 +2,7 @@
 library(ggplot2)
 
 # Loading the data.
-data <- read.csv(file = "Estatística 2 - LIsta 2 - Data.csv",
+data <- read.csv(file = "https://raw.githubusercontent.com/lucianoventurim/Statistics-2-Masters-EPGE/main/data/statistic2_assigment2_data.csv",
                  header = TRUE, row.names = 1)
 
 # Now we want to create dummy variables for the groups. Since there are 5 groups,

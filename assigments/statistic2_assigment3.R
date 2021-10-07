@@ -4,7 +4,7 @@ library(ggplot2)
 library(ggridges)
 
 # Loading the data.
-data <- read.csv(file = "Estatística 2 - LIsta 3 - Data.csv",
+data <- read.csv(file = "https://raw.githubusercontent.com/lucianoventurim/Statistics-2-Masters-EPGE/main/data/statistic2_assigment3_data.csv",
                  header = TRUE, row.names = 1)
 
 # Question 5 item a. Lets plot the data for each group and a regression line 

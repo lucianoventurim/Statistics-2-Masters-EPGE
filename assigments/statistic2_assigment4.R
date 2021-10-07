@@ -1,7 +1,7 @@
 # Estatística 2 - Luciano Fabio Busatto Venturim
 
 # Loading the data.
-data <- read.csv(file = "Estatística 2 - LIsta 4 - Data.csv",
+data <- read.csv(file = "https://raw.githubusercontent.com/lucianoventurim/Statistics-2-Masters-EPGE/main/data/statistic2_assigment4_data.csv",
                  header = TRUE, row.names = 1)
 
 # Since there are 5 groups, we will create 4 dummy variables.
